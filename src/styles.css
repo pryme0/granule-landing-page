@@ -430,9 +430,9 @@
 
 .testimonial-grid {
   display: flex;
+  justify-content: center;
   width: 100%;
   max-width: none;
-  padding-left: max(40px, calc((100vw - 1240px) / 2));
   gap: 24px;
   overflow: hidden;
 }
@@ -4487,7 +4487,7 @@ h1 {
   display: flex;
   width: 100%;
   max-width: none;
-  padding-left: max(40px, calc((100vw - 1240px) / 2));
+  padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 16px;
   gap: 24px;
